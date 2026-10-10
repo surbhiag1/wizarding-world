@@ -31,7 +31,11 @@ It started as a portfolio piece to show what you can build with **nothing but th
 
 ## 🖼️ Screenshots
 
-> *Screenshots coming soon.* See [Adding screenshots](#-adding-screenshots) below to add your own.
+![Home page](home.png)
+![Sorting quiz](quiz.png)
+![Spell book](spells.png)
+![Characters](characters.png)
+![Wand shop](wands.png)
 
 <!--
 After adding your images to the screenshots/ folder, delete the line above
