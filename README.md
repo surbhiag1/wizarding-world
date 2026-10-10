@@ -32,9 +32,10 @@ It started as a portfolio piece to show what you can build with **nothing but th
 ## 🖼️ Screenshots
 
 ![Home page](home.png)
-![Sorting quiz](quiz.png)
-![Spell book](spells.png)
-![Characters](characters.png)
+![Sorting quiz](sorting.png)
+![Sorting quiz](sorting2.png)
+![Spell book](spell.png)
+![Characters](character.png)
 ![Wand shop](wands.png)
 
 <!--
