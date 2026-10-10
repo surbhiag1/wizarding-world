@@ -191,9 +191,12 @@ Ideas and pull requests are welcome.
 
 This is an **unofficial, non-commercial fan project** made for learning and portfolio purposes. It is not affiliated with, endorsed by, or sponsored by the creators, publishers or studios behind the books and films. All names and related marks belong to their respective owners. No official artwork, logos, crests or text passages are used; all descriptions are written in original words and all visuals are made with CSS.
 
+
+
 ## 📄 License
 
-Copyright (c) 2026 Surbhi Agarwal
+The code is released under the [MIT License](LICENSE). The licence covers the code in this repository only and grants no rights to any third-party names, characters or trademarks.
+
 
 ---
 
