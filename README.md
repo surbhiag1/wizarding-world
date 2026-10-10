@@ -36,7 +36,7 @@ It started as a portfolio piece to show what you can build with **nothing but th
 ![Sorting quiz](sorting2.png)
 ![Spell book](spell.png)
 ![Characters](character.png)
-![Wand shop](wands.png)
+![Wand shop](wand.png)
 
 <!--
 After adding your images to the screenshots/ folder, delete the line above
