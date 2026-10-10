@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Characters | The Wizarding World Archive</title>
+  <meta name="description" content="Browse witches, wizards and magical folk, filtered by house.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="characters">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main" class="container">
+    <div class="page-head">
+      <h1>Character Explorer</h1>
+      <p class="lead">Select a name to read more about them.</p>
+    </div>
+
+    <div class="toolbar" role="search">
+      <label class="visually-hidden" for="char-search">Search characters</label>
+      <input type="search" id="char-search" placeholder="Search by name, role or trait…">
+    </div>
+    <div class="chips" id="house-chips" role="group" aria-label="Filter by house"></div>
+
+    <p class="result-count" id="char-count" aria-live="polite" style="margin-top:1rem"></p>
+    <div class="grid" id="char-grid"></div>
+    <p class="empty" id="char-empty" hidden>No characters match. Try a different search or house.</p>
+    <div style="height:3rem"></div>
+  </main>
+
+  <dialog class="modal" id="char-modal" aria-labelledby="modal-name">
+    <button class="close" aria-label="Close" id="modal-close">×</button>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/characters.js"></script>
+  <script src="data/quiz.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/characters.js"></script>
+</body>
+</html>

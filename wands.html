@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wand Shop | The Wizarding World Archive</title>
+  <meta name="description" content="Let a wand choose you, or design your own and add it to your basket.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="wands">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main" class="container">
+    <div class="page-head">
+      <h1>The Wand Shop</h1>
+      <p class="lead">The wand chooses the wizard, so they say. Take the finder, or build your own.</p>
+    </div>
+
+    <section class="card" aria-labelledby="finder-title" style="margin-bottom:1.5rem">
+      <h2 id="finder-title">Let a Wand Choose You</h2>
+      <div id="finder"></div>
+    </section>
+
+    <div class="shop-layout">
+      <section class="card" aria-labelledby="builder-title">
+        <h2 id="builder-title">Design a Wand</h2>
+        <div class="preview" aria-hidden="true">
+          <div class="wand-holder" id="wand-holder"><div class="wand" id="wand"></div></div>
+        </div>
+
+        <div class="field">
+          <label for="wood">Wood</label>
+          <select id="wood"></select>
+          <span class="note" id="wood-note"></span>
+        </div>
+        <div class="field">
+          <label for="core">Core</label>
+          <select id="core"></select>
+          <span class="note" id="core-note"></span>
+        </div>
+        <div class="field">
+          <label for="length">Length (inches)</label>
+          <select id="length"></select>
+        </div>
+        <div class="field">
+          <label for="flex">Flexibility</label>
+          <select id="flex"></select>
+        </div>
+
+        <p>Price: <span class="price" id="price"></span></p>
+        <button class="btn" id="add">Add to Basket</button>
+      </section>
+
+      <aside class="card" aria-labelledby="basket-title">
+        <h2 id="basket-title">Your Basket</h2>
+        <ul class="cart-list" id="cart-list"></ul>
+        <p class="empty" id="cart-empty">Your basket is empty.</p>
+        <div class="total"><span>Total</span><span id="cart-total">0 Galleons</span></div>
+        <button class="btn secondary small" id="clear" disabled>Empty basket</button>
+        <p class="hint">Fan-made demo: nothing is actually sold. 17 Sickles = 1 Galleon.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/wands.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wands.js"></script>
+</body>
+</html>

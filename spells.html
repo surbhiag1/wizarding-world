@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spell Book | The Wizarding World Archive</title>
+  <meta name="description" content="Search, filter and flip through a collection of well-known spells.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="spells">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main" class="container">
+    <div class="page-head">
+      <h1>The Spell Book</h1>
+      <p class="lead">Click a card to flip it. Tap the heart to save a favourite.</p>
+    </div>
+
+    <div class="toolbar" role="search">
+      <label class="visually-hidden" for="spell-search">Search spells</label>
+      <input type="search" id="spell-search" placeholder="Search by name or effect…">
+      <label class="visually-hidden" for="spell-type">Filter by type</label>
+      <select id="spell-type"></select>
+      <label class="visually-hidden" for="spell-sort">Sort spells</label>
+      <select id="spell-sort">
+        <option value="az">A to Z</option>
+        <option value="easy">Easiest first</option>
+        <option value="hard">Hardest first</option>
+      </select>
+      <button class="chip" id="fav-toggle" aria-pressed="false">♥ Favourites only</button>
+    </div>
+
+    <p class="result-count" id="spell-count" aria-live="polite"></p>
+    <div class="grid" id="spell-grid"></div>
+    <p class="empty" id="spell-empty" hidden>No spells match your search. Try a different word.</p>
+    <div style="height:3rem"></div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/spells.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/spells.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Wizarding World Archive | Fan Project</title>
+  <meta name="description" content="An unofficial fan-made wizarding world explorer: a house sorting quiz, spell book, character explorer and wand shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="candle" style="left:8%;top:30%;animation-delay:0s" aria-hidden="true"></span>
+      <span class="candle" style="left:20%;top:55%;animation-delay:1.2s" aria-hidden="true"></span>
+      <span class="candle" style="left:35%;top:22%;animation-delay:2.4s" aria-hidden="true"></span>
+      <span class="candle" style="right:34%;top:60%;animation-delay:0.6s" aria-hidden="true"></span>
+      <span class="candle" style="right:18%;top:28%;animation-delay:1.8s" aria-hidden="true"></span>
+      <span class="candle" style="right:7%;top:52%;animation-delay:3s" aria-hidden="true"></span>
+      <div class="content container">
+        <h1 id="hero-title">The Wizarding World Archive</h1>
+        <p>Find your house, browse the spell book, meet the witches and wizards, and choose a wand. An unofficial fan project.</p>
+        <div class="actions">
+          <a class="btn" href="quiz.html">Take the Sorting Quiz</a>
+          <a class="btn secondary" href="spells.html">Open the Spell Book</a>
+        </div>
+        <p id="house-banner" class="muted" style="margin-top:1.5rem" hidden></p>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="explore-title">
+      <h2 id="explore-title" class="center">Explore the Archive</h2>
+      <div class="grid">
+        <a class="card feature-card" href="quiz.html">
+          <span class="icon" aria-hidden="true">🎩</span>
+          <h3>Sorting Quiz</h3>
+          <p>Ten questions to discover which house suits you best.</p>
+        </a>
+        <a class="card feature-card" href="spells.html">
+          <span class="icon" aria-hidden="true">📖</span>
+          <h3>Spell Book</h3>
+          <p>Search and filter spells, flip cards, and save your favourites.</p>
+        </a>
+        <a class="card feature-card" href="characters.html">
+          <span class="icon" aria-hidden="true">🧙</span>
+          <h3>Character Explorer</h3>
+          <p>Browse witches, wizards and magical folk by house.</p>
+        </a>
+        <a class="card feature-card" href="wands.html">
+          <span class="icon" aria-hidden="true">🪄</span>
+          <h3>Wand Shop</h3>
+          <p>Let a wand choose you, or design your own and fill a basket.</p>
+        </a>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section container" aria-labelledby="daily-title" style="padding-top:0">
+      <h2 id="daily-title" class="center">Today's Pick</h2>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+        <article class="card" id="spell-of-day" aria-live="polite"></article>
+        <article class="card" id="char-of-day" aria-live="polite"></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/spells.js"></script>
+  <script src="data/characters.js"></script>
+  <script src="data/quiz.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
