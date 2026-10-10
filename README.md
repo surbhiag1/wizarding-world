@@ -13,7 +13,7 @@ No frameworks. No build step. No dependencies. Just a little magic.
 ![No Dependencies](https://img.shields.io/badge/dependencies-zero-6b4630?style=for-the-badge)
 ![License: MIT](https://img.shields.io/badge/license-MIT-7b1e2e?style=for-the-badge)
 
-**[✨ Live Demo](https://YOUR-USERNAME.github.io/wizarding-world/)** · **[🐛 Report a Bug](../../issues)** · **[💡 Suggest a Feature](../../issues)**
+**[✨ Live Demo]())** · **[🐛 Report a Bug](../../issues)** · **[💡 Suggest a Feature](../../issues)**
 
 </div>
 
