@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🪄 The Wizarding World Archive
+ 🪄 The Wizarding World Archive
 
-### Get sorted. Flip a spell. Meet the magic folk. Let a wand choose you.
+Get sorted. Flip a spell. Meet the magic folk. Let a wand choose you.
 
 A fan-made, five-page wizarding world experience, handcrafted in **pure HTML, CSS and vanilla JavaScript**.
 No frameworks. No build step. No dependencies. Just a little magic.
@@ -19,7 +19,7 @@ No frameworks. No build step. No dependencies. Just a little magic.
 
 ---
 
-## 📜 What is this?
+ 📜 What is this?
 
 Imagine an old library at midnight: candlelight, worn parchment, a faint smell of ink. This project is that, as a website.
 
@@ -29,7 +29,7 @@ It started as a portfolio piece to show what you can build with **nothing but th
 
 ---
 
-## 🖼️ Screenshots
+🖼️ Screenshots
 
 > *Screenshots coming soon.* See [Adding screenshots](#-adding-screenshots) below to add your own.
 
@@ -52,30 +52,28 @@ and remove the comment markers around this block.
 
 ---
 
-## ✨ The Five Chambers
+ ✨ The Five Chambers
 
-### 🏰 Home
+🏰 Home
 A candlelit hero greets you, with a **spell of the day** and a **featured character** that change every day, and a banner that remembers which house you were sorted into.
 
-### 🎩 Sorting Quiz
+ 🎩 Sorting Quiz
 Ten questions, four answers each, and no wrong choices. Behind the scenes it uses **weighted scoring**: every answer gives 2 points to one house and 1 point to a runner-up, so one odd answer can't sway the result. Ties are broken fairly, you can go back and change answers, and you get a full score breakdown at the end.
 
-### 📖 Spell Book
+📖 Spell Book
 Thirty spells on **3D flip cards**. Search by name or effect, filter by type, sort by difficulty, and tap the ♥ to save favourites. They're remembered next time you visit. Everything works from the keyboard too.
 
-### 🧙 Character Explorer
+ 🧙 Character Explorer
 Twenty-two witches, wizards and magical folk. Filter by house, search by name, role or trait, and open any card for a closer look in a native `<dialog>` pop-up.
 
-### 🪄 Wand Shop
+ 🪄 Wand Shop
 Two ways to find your wand:
 - **The Finder:** answer three questions and get a wood-and-core pairing matched to your personality.
 - **The Designer:** pick the wood, core, length and flexibility, and watch the wand redraw itself live with a glow that matches its core. Add it to your basket and the total is worked out in Galleons and Sickles.
 
 *(Nothing is actually sold. The only thing you're spending is time.)*
 
----
-
-## 🧪 Under the Hood
+ 🧪 Under the Hood
 
 For the curious and the code reviewers:
 
@@ -91,8 +89,7 @@ For the curious and the code reviewers:
 | **Responsive** | Fluid grids and a collapsible mobile menu that adapts down to phone widths. |
 
 ---
-
-## 🚀 Quick Start
+ 🚀 Quick Start
 
 **The 5-second way:** download the project and double-click `index.html`.
 
